@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+.music {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.icon-music svg {
+  height: 50px;
+}
+.icon-music {
+  text-align: center;
+}
+.music-text {
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Raleway", cursive;
+}
+@media (max-width: 500px) {
+  .music {
+    margin-top: 30px;
+  }
+  .icon-music svg {
+    height: 50px;
+  }
+  .music-text {
+    font-size: 13px;
+  }
+}

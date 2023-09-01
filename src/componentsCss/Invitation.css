@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+.icon-invitation {
+  text-align: center;
+}
+.icon-invitation svg {
+  height: 50px;
+}
+.invitation {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.invitation-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Raleway", cursive;
+}
+.invitation-text h3,
+h1 {
+  margin: 8px;
+  font-weight: 400;
+}
+.nos-casamos {
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+}
+.date {
+  margin-top: 115px;
+  text-align: center;
+  font-family: "Raleway", cursive;
+}
+.date h3 {
+  font-weight: 400;
+}
+.dressing h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Raleway", cursive;
+  text-align: center;
+  text-decoration: underline;
+}
+@media (max-width: 500px) {
+  .invitation {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .invitation-text {
+    font-size: 10px;
+  }
+  .date {
+    margin-top: 160px;
+    font-size: 15px;
+  }
+  .nos-casamos {
+    text-shadow: 1px 1px 5px black;
+  }
+}
