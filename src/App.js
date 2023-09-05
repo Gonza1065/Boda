@@ -6,15 +6,11 @@ import { Church } from "./components/Church.jsx";
 import { Fiesta } from "./components/Fiesta.jsx";
 import { Music } from "./components/Music.jsx";
 import "./App.css";
-import { useBackgroundImage } from "./components/context.jsx";
 function App() {
-  const { backgroundStyles } = useBackgroundImage();
   return (
-    // style={backgroundStyles}
     <>
-      <div className="App">
+      <main className="App">
         <BrowserRouter>
-          <NavBar />
           <Routes>
             <Route path="/" element={<Presentacion />} />
             <Route path="/invitacion" element={<Invitacion />} />
@@ -23,7 +19,7 @@ function App() {
             <Route path="/musica" element={<Music />} />
           </Routes>
         </BrowserRouter>
-      </div>
+      </main>
     </>
   );
 }

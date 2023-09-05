@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-
 .icon-champagne-glasses svg {
   height: 50px;
 }
 .icon-champagne-glasses {
   text-align: center;
 }
+.body-party {
+  background-color: #ece0ca;
+  border-radius: 20px;
+}
 .party {
-  margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 30px;
 }
 .party-text {
   text-align: center;
@@ -41,6 +44,7 @@
   border-radius: 10px;
   border-style: groove;
   border-color: rgb(224, 145, 40);
+  margin-top: 15px;
 }
 .see-location-party:hover {
   background-color: bisque;
@@ -74,15 +78,14 @@
 @media (max-width: 500px) {
   .party-text {
     font-size: 13px;
-    font-weight: 500;
+  }
+  .party-text h3 {
+    font-weight: 400;
   }
   .celebrate-with-us {
     font-size: 33px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-  }
-  .celebrate-with-us h1 {
-    text-shadow: 1px 1px 5px black;
   }
   .party-text-ubication {
     text-align: center;

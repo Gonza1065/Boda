@@ -7,9 +7,9 @@ import { BackgroundImageProvider } from "./components/context";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BackgroundImageProvider>
+    {/* <BackgroundImageProvider> */}
       <App />
-    </BackgroundImageProvider>
+    {/* </BackgroundImageProvider> */}
   </React.StrictMode>
 );
 

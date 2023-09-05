@@ -2,10 +2,12 @@ import "../componentsCss/Music.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { NavBar } from "./NavBar";
 export function Music() {
   return (
     <>
       <section className="music">
+        <NavBar />
         <header className="icon-music">
           <FontAwesomeIcon icon={faMusic} />
         </header>
@@ -18,9 +20,7 @@ export function Music() {
         <aside>
           <div className="maps-location">
             <button className="see-location">
-              <Link to="#">
-                Añadí tu tema
-              </Link>
+              <Link to="#">Añadí tu tema</Link>
             </button>
           </div>
         </aside>

@@ -6,9 +6,14 @@
 .icon-invitation svg {
   height: 50px;
 }
+.body-invitation {
+  background-color: #ece0ca;
+  border-radius: 20px;
+}
 .invitation {
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 30px;
 }
 .invitation-text {
   display: flex;
@@ -19,11 +24,11 @@
 .invitation-text h3,
 h1 {
   margin: 8px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .nos-casamos {
   font-family: "Dancing Script", cursive;
-  font-size: 28px;
+  font-size: 100px;
 }
 .date {
   margin-top: 115px;
@@ -34,8 +39,8 @@ h1 {
   font-weight: 400;
 }
 .dressing h4 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
   font-family: "Raleway", cursive;
   text-align: center;
   text-decoration: underline;
@@ -44,7 +49,6 @@ h1 {
   .invitation {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 30px;
   }
   .invitation-text {
     font-size: 10px;
@@ -54,6 +58,6 @@ h1 {
     font-size: 15px;
   }
   .nos-casamos {
-    text-shadow: 1px 1px 5px black;
+    font-size: 42px;
   }
 }
