@@ -30,6 +30,9 @@ h1 {
   font-family: "Dancing Script", cursive;
   font-size: 100px;
 }
+.nos-casamos span {
+  color: rgb(128, 128, 128);
+}
 .date {
   margin-top: 115px;
   text-align: center;
@@ -44,6 +47,7 @@ h1 {
   font-family: "Raleway", cursive;
   text-align: center;
   text-decoration: underline;
+  padding-bottom: 30px;
 }
 @media (max-width: 500px) {
   .invitation {

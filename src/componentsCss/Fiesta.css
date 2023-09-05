@@ -29,10 +29,17 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
+.celebrate-with-us span {
+  color: grey;
+}
 .party-text-ubication {
   text-align: center;
   font-family: "Raleway", cursive;
+  font-size: 17.5px;
   margin-top: 100px;
+}
+.party-text-ubication h1 strong {
+  text-decoration: underline;
 }
 .party-text-assist-confirmation {
   text-align: center;

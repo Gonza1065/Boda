@@ -2,12 +2,16 @@
 // import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import "../componentsCss/Presentation.css";
-import { NavBar } from "./NavBar";
+import { NavBarPresentation } from "./NavBarPresentation";
 export function Presentacion() {
   return (
     <>
       <section className="body-presentation">
-        <NavBar />
+        <div className="nav-bar">
+          <span>
+            <NavBarPresentation />
+          </span>
+        </div>
         <article className="presentation">
           <div className="presentation-text">
             <h1>Caminaré contigo siempre</h1>

@@ -19,18 +19,23 @@ export function Church() {
               <h3>El amor verdadero</h3>
               <h3>Todo lo disculpa, todo lo cree,</h3>
               <h3>Todo lo espera, todo lo soporta</h3>
-              <h3>El amor todo lo puede</h3>
+              <h3>El amor todo lo puede.</h3>
               <h4>1 Corintios 13</h4>
             </div>
             <div className="church-text-god">
               <h3>
-                Dios bendecirá nuestra unión y nos gustaría que seas parte de
-                ese momento
+                <span>¡</span>Dios bendecirá nuestra unión y nos gustaría que
+                seas parte de ese momento<span>!</span>
               </h3>
             </div>
           </article>
           <div className="church-text-location">
-            <h3>Los esperamos en la Parroquia Sagrado Corazón de Jesús.</h3>
+            <h3>
+              Los esperamos en la
+              <strong>
+                <span> Parroquia Sagrado Corazón de Jesús.</span>
+              </strong>
+            </h3>
             <h3>Videla Aranda, M5517 Cruz de Piedra, Maipú, Mendoza</h3>
           </div>
           <aside>

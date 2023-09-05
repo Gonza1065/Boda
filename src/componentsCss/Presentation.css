@@ -1,21 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap");
 .body-presentation {
+  position: relative;
   background-image: url("https://res.cloudinary.com/dn2vrx9eu/image/upload/v1691688727/IMG_20221029_095242384_BURST001_sq2rod.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.body-presentation::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Cambia el valor de '0.5' para ajustar la opacidad */
+  border-radius: 20px;
+  z-index: 1; /* Coloca este pseudo-elemento detrás del contenido */
 }
 .presentation-text {
   text-align: center;
   margin-top: 80px;
   padding-bottom: 400px;
 }
+.nav-bar {
+  position: relative;
+  z-index: 2;
+}
+.nav-bar span {
+  color: white;
+}
 .presentation-text h1 {
-  font-family: "Grape Nuts", cursive;
-  font-size: 90px;
-  color: black;
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 110px;
+  color: white;
   margin: 0;
   font-weight: 500;
+  position: absolute;
+  z-index: 2;
+  left: 22%;
+  top: 30%;
 }
 @media (max-width: 500px) {
   .body-presentation {
@@ -25,11 +54,12 @@
     margin-top: 80px;
     margin-right: 30px;
     margin-left: 30px;
+    padding-bottom: 480px;
   }
   .presentation-text h1 {
-    margin-top: 0;
+    margin-top: -50px;
     margin-bottom: 0;
     font-size: 50px;
-    width: 100%;
+    margin-right: 70px;
   }
 }

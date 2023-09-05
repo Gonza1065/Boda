@@ -19,12 +19,14 @@ export function Fiesta() {
               <h3>Todos somos inmortales hasta el primer beso</h3>
               <h3>Y la segunda copa de vino...</h3>
               <div className="celebrate-with-us">
-                <h1>¡Festejalo con nosotros!</h1>
+                <h1>
+                  <span>¡</span>Festejalo con nosotros<span>!</span>
+                </h1>
               </div>
             </div>
             <div className="party-text-ubication">
               <h1>
-                En el <strong>Salon Terra Oliva</strong>
+                En el <strong>Salón Terra Oliva</strong>
               </h1>
               <h1>351, Videla Aranda, Cruz de Piedra, Maipú, Mendoza</h1>
             </div>
@@ -32,7 +34,7 @@ export function Fiesta() {
           <aside>
             <div className="maps-location">
               <button className="see-location-party">
-                <Link to="https://www.google.com/maps/place/Parroquia+Sagrado+Corazón+de+Jesús,+Tres+Esquinas+(Cruz+de+Piedra+-Maipú+)/@-33.030766,-68.778859,18z/data=!3m1!4b1!4m6!3m5!1s0x967e7311c7140591:0xfd24dfb3382b8d4!8m2!3d-33.0307683!4d-68.7775689!16s%2Fg%2F11bx2gghhd?entry=ttu">
+                <Link to="https://www.google.com/maps/place/Terra+Oliva/@-33.028053,-68.7938064,17z/data=!3m1!4b1!4m6!3m5!1s0x967e7311c75ed4ff:0x3de5fa8f9d6a1300!8m2!3d-33.0280575!4d-68.7912261!16s%2Fg%2F11bxc7fflv?entry=ttu">
                   Ver locación
                 </Link>
               </button>
@@ -40,15 +42,16 @@ export function Fiesta() {
           </aside>
           <article>
             <div className="party-text-assist-confirmation">
-              <h3>No te olvides de confirmar asistencia</h3>
+              <h3>
+                No te olvides de confirmar tu asistencia antes del 20 de febrero
+                del 2024
+              </h3>
             </div>
           </article>
           <aside>
             <div className="assist">
               <button className="confirm-assist">
-                <Link to="https://www.google.com/maps/place/Parroquia+Sagrado+Corazón+de+Jesús,+Tres+Esquinas+(Cruz+de+Piedra+-Maipú+)/@-33.030766,-68.778859,18z/data=!3m1!4b1!4m6!3m5!1s0x967e7311c7140591:0xfd24dfb3382b8d4!8m2!3d-33.0307683!4d-68.7775689!16s%2Fg%2F11bx2gghhd?entry=ttu">
-                  Confirmar Asistencia
-                </Link>
+                <Link to="#">Confirmar Asistencia</Link>
               </button>
             </div>
           </aside>
