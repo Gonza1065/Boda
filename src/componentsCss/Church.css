@@ -92,11 +92,12 @@
   }
   .church-text-god h3 {
     margin: 0;
+    font-size: 30px;
   }
-
   .church-text-location h3 {
     font-size: 13px;
     font-weight: 500;
+    line-height: 1.5;
   }
   .see-location a {
     font-size: 15px;

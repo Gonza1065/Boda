@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
 .logo-navbar {
   text-align: center;
 }
@@ -34,8 +35,11 @@
     margin: 0;
   }
   .navegation-presentation li {
-    padding: 4px;
-    font-size: 9.5px;
+    padding: 3px;
+    font-size: 9px;
+    font-family: "Raleway", cursive;
+    font-weight: 400;
+
   }
   .logo-navbar {
     text-align: center;

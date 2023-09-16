@@ -45,3 +45,9 @@
     height: 70px;
   }
 }
+@media (max-width: 370px) {
+  .navegation li {
+    font-size: 9px;
+    padding-left: 1.5px;
+  }
+}

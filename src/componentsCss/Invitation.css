@@ -53,13 +53,15 @@ h1 {
   .invitation {
     margin-left: 20px;
     margin-right: 20px;
+    padding-bottom: 50px;
   }
   .invitation-text {
     font-size: 10px;
   }
   .date {
-    margin-top: 160px;
+    margin-top: 170px;
     font-size: 15px;
+    margin-bottom: 200px;
   }
   .nos-casamos {
     font-size: 42px;
