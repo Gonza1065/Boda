@@ -5,6 +5,9 @@
 .logo-navbar img {
   height: 70px;
 }
+.close {
+  display: none;
+}
 .navegation-presentation {
   display: flex;
   justify-content: center;
@@ -29,22 +32,55 @@
 .separation-nav-bar {
   padding: 10px;
 }
+.menu-mobile-open {
+  display: none;
+}
+.menu-mobile-close {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
 @media (max-width: 500px) {
-  .navegation-presentation {
-    display: flex;
-    margin: 0;
+  .menu-mobile-open {
+    display: block;
+    position: fixed;
+    background-color: bisque;
+    height: 100%;
+    padding-top: 50px;
+    margin-top: 0;
   }
-  .navegation-presentation li {
-    padding: 3px;
-    font-size: 9px;
-    font-family: "Raleway", cursive;
-    font-weight: 400;
-
+  .menu-mobile-open li {
+    list-style: none;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .menu-mobile-open li a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu-mobile-close {
+    display: none;
+  }
+  .menu-icon {
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu-icon svg {
+    height: 30px;
+    margin-top: 30px;
+  }
+  .navegation-presentation {
+    display: none;
   }
   .logo-navbar {
     text-align: center;
   }
   .logo-navbar img {
     height: 70px;
+    position: absolute;
+    left: 23%;
   }
 }
