@@ -1,7 +1,7 @@
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../componentsCss/Invitation.css";
 import { Count } from "./Count.jsx";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { NavBar } from "./NavBar";
 export function Invitacion() {
   return (

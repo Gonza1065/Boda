@@ -42,7 +42,7 @@
   display: none;
 }
 
-@media (max-width: 500px) {
+@media ((min-width: 350px) and (max-width: 500px)) {
   .menu-mobile-open {
     display: block;
     position: fixed;
@@ -93,11 +93,11 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(1200%);
+      transform: translateX(1000%);
     }
   }
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .menu-icon .animation-active {
     animation: moveRight 1s linear forwards;
   }
@@ -109,4 +109,4 @@
       transform: translateX(20%);
     }
   }
-}
+} */

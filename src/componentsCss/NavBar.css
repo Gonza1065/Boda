@@ -31,12 +31,7 @@
 }
 @media (max-width: 500px) {
   .navegation {
-    display: flex;
-    margin: 0;
-  }
-  .navegation li {
-    padding: 4px;
-    font-size: 9.5px;
+    display: none;
   }
   .logo-navbar {
     text-align: center;
