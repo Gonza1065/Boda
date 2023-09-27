@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGift } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../componentsCss/Gifts.css";
 import { NavBar } from "./NavBar";
 export function Gifts() {
@@ -19,7 +19,8 @@ export function Gifts() {
           </div>
           <div className="gift-cbu">
             <h2>
-              <span>CBU Juli:</span> 0170085540000035281533
+              <span>CBU Juli:</span> <br className="separador" />
+              0170085540000035281533
             </h2>
             <h2>
               <span>CBU Seba:</span> <br className="separador" />

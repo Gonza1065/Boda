@@ -83,6 +83,9 @@
   transition: 0.5s;
 }
 @media (max-width: 500px) {
+  .body-party {
+    padding-bottom: 35px;
+  }
   .party-text {
     font-size: 13px;
   }

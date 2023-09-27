@@ -23,6 +23,9 @@
   padding-bottom: 150px;
 }
 @media (max-width: 500px) {
+  .body-music {
+    padding-bottom: 303px;
+  }
   .music {
     margin-left: 50px;
     margin-right: 50px;

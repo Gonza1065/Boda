@@ -74,6 +74,9 @@
   transition: 0.5s;
 }
 @media (max-width: 500px) {
+  .body-church {
+    padding-bottom: 110px;
+  }
   .church {
     margin-left: 50px;
     margin-right: 50px;
@@ -93,6 +96,9 @@
   .church-text-god h3 {
     margin: 0;
     font-size: 30px;
+  }
+  .church-text-location {
+    padding-top: 30px;
   }
   .church-text-location h3 {
     font-size: 13px;
