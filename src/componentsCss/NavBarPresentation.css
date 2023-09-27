@@ -42,7 +42,7 @@
   display: none;
 }
 
-@media ((min-width: 350px) and (max-width: 500px)) {
+@media ((max-width: 500px)) {
   .menu-mobile-open {
     display: block;
     position: fixed;
