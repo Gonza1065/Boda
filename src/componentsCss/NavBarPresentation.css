@@ -42,14 +42,19 @@
   display: none;
 }
 
-@media ((max-width: 700px)) {
+@media ((max-width: 500px)) {
   .menu-mobile-open {
     display: block;
     position: fixed;
-    background-color: bisque;
+    background-color: rgb(255, 196, 125);
     height: 100%;
-    padding-top: 50px;
+    padding-top: 65px;
     margin-top: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: "Raleway", cursive;
+    font-weight: 600;
+    z-index: 3;
   }
   .menu-mobile-open li {
     list-style: none;
@@ -59,6 +64,10 @@
   .menu-mobile-open li a {
     text-decoration: none;
     color: black;
+    text-decoration: underline;
+  }
+  .menu-mobile-open li a.active {
+    color: brown;
   }
 
   .menu-mobile-close {

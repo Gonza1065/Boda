@@ -42,9 +42,9 @@
   margin: 0;
   font-weight: 500;
   position: absolute;
-  z-index: 2;
   left: 22%;
   top: 30%;
+  z-index: 1;
 }
 @media (max-width: 500px) {
   .body-presentation {
