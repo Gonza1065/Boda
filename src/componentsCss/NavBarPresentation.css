@@ -106,7 +106,7 @@
     }
   }
 }
-@media only screen and ((min-width: 501px) and (max-width: 800px)) {
+@media only screen and ((min-width: 501px) and (max-width: 850px)) {
   .menu-mobile-open {
     display: block;
     position: fixed;

@@ -67,7 +67,7 @@ h1 {
     font-size: 42px;
   }
 }
-@media only screen and (min-width: 501px) and (max-width: 800px) {
+@media only screen and (min-width: 501px) and (max-width: 850px) {
   .nos-casamos {
     font-size: 55px;
   }
