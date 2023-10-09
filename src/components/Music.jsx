@@ -1,7 +1,7 @@
-import "../componentsCss/Music.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import "../componentsCss/Music.css";
 import { NavBar } from "./NavBar";
 export function Music() {
   return (
@@ -21,8 +21,20 @@ export function Music() {
           <aside className="add-song">
             <div className="maps-location">
               <button className="see-location">
-                <Link to="#">Añadí tu tema</Link>
+                <Link to="https://open.spotify.com/playlist/2v32qsQtYyBxL3fhQVRrrz">
+                  Añadí tu tema
+                </Link>
               </button>
+            </div>
+            <div className="spotify">
+              <iframe
+                src="https://open.spotify.com/embed/playlist/2v32qsQtYyBxL3fhQVRrrz?utm_source=generator&theme=0"
+                width="80%"
+                height="352"
+                frameBorder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
             </div>
           </aside>
         </article>

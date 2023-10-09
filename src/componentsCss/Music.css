@@ -2,6 +2,7 @@
 .body-music {
   background-color: #ece0ca;
   border-radius: 20px;
+  padding-bottom: 50px;
 }
 .icon-music svg {
   height: 50px;
@@ -10,21 +11,25 @@
   text-align: center;
 }
 .music-text {
-  margin-top: 70px;
+  margin-top: 20px;
   text-align: center;
   font-family: "Raleway", cursive;
 }
 .music-text h3 {
-  font-size: 50px;
+  font-size: 30px;
   padding: 0;
   margin: 20px;
 }
-.add-song {
-  padding-bottom: 150px;
+.spotify {
+  text-align: center;
+}
+.spotify iframe {
+  margin-top: -30px;
+  border-style: none;
 }
 @media (max-width: 500px) {
   .body-music {
-    padding-bottom: 303px;
+    padding-bottom: 55px;
   }
   .music {
     margin-left: 50px;
@@ -39,5 +44,16 @@
   }
   .music-text {
     font-size: 13px;
+  }
+  .spotify iframe {
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .icon-music svg {
+    margin-top: 20px;
+  }
+  .body-music {
+    padding-bottom: 135px;
   }
 }
