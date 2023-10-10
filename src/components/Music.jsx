@@ -17,21 +17,23 @@ export function Music() {
             <h3>sonar en nuestra fiesta</h3>
             <h1>¡Ayudanos a armar la lista!</h1>
             <h1>¡Sumate haciendo click!</h1>
+            <h1>Ya estamos agregando canciones a la playlist</h1>
           </div>
           <aside className="add-song">
             <div className="maps-location">
               <button className="see-location">
-                <Link to="https://open.spotify.com/playlist/2v32qsQtYyBxL3fhQVRrrz">
+                <Link to="https://spotify.link/7bW6ydFkNDb">
                   Añadí tu tema
                 </Link>
               </button>
             </div>
             <div className="spotify">
               <iframe
-                src="https://open.spotify.com/embed/playlist/2v32qsQtYyBxL3fhQVRrrz?utm_source=generator&theme=0"
-                width="80%"
+                src="https://open.spotify.com/embed/playlist/6HhNF3CNARooIeezLRJuZz?utm_source=generator"
+                width="100%"
                 height="352"
                 frameBorder="0"
+                allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
               ></iframe>
