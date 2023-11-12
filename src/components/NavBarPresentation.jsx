@@ -16,12 +16,6 @@ export function NavBarPresentation() {
   const classNameAnimationBars = animationBars ? "animation-active" : "";
   return (
     <>
-      <header className="logo-navbar">
-        <img
-          src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1693236185/Sebastian___Julieta-logos_transparent-removebg-preview_glrehb.png"
-          alt=""
-        />
-      </header>
       <header>
         <nav>
           <ul className="navegation-presentation">

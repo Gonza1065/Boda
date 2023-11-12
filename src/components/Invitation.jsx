@@ -17,18 +17,13 @@ export function Invitacion() {
           <div className="invitation-text">
             <h3>Ha llegado el momento tan esperado por nosotros.</h3>
             <h1>
-              <span className="nos-casamos">
-                <span>¡</span>NOS CASAMOS<span>!</span>
-              </span>
+              <span className="nos-casamos">¡NOS CASAMOS!</span>
             </h1>
             <h3>Nos encantaria compartir este día tan especial,</h3>
             <h3>y queremos que formen parte de él.</h3>
           </div>
           <div className="date">
-            <h3>
-              <strong>¡</strong>Los esperamos el día 10 de marzo del 2024
-              <strong>!</strong>
-            </h3>
+            <h3>Los esperamos el día 10 de marzo del 2024</h3>
           </div>
           <aside>
             <div className="count">

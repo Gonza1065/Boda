@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 .icon-invitation {
   text-align: center;
 }
 .icon-invitation svg {
-  height: 50px;
+  height: 30px;
+  margin-top: 30px;
 }
 .body-invitation {
   background-color: #ece0ca;
@@ -19,12 +20,18 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: "Raleway", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.invitation-text h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .invitation-text h3,
 h1 {
   margin: 8px;
   font-weight: 500;
+  font-size: 15px;
+  line-height: 0.8;
 }
 .nos-casamos {
   font-family: "Dancing Script", cursive;
@@ -36,7 +43,7 @@ h1 {
 .date {
   margin-top: 115px;
   text-align: center;
-  font-family: "Raleway", cursive;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .date h3 {
   font-weight: 400;
@@ -44,27 +51,35 @@ h1 {
 .dressing h4 {
   margin-top: 15px;
   margin-bottom: 0;
-  font-family: "Raleway", cursive;
   text-align: center;
-  text-decoration: underline;
   padding-bottom: 30px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 @media (max-width: 500px) {
+  .count {
+    margin-top: -30px;
+  }
   .invitation {
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
   }
   .invitation-text {
+    margin-top: 30px;
     font-size: 10px;
   }
   .date {
-    margin-top: 170px;
+    margin-top: 70px;
     font-size: 15px;
-    margin-bottom: 200px;
+    margin-bottom: 60px;
   }
   .nos-casamos {
     font-size: 42px;
+    color: rgb(95, 95, 95);
+  }
+  .dressing {
+    font-size: 10px;
+    margin-top: 30px
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 850px) {

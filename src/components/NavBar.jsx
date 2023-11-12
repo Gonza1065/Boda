@@ -18,7 +18,7 @@ export function NavBar() {
     <>
       <header className="logo-navbar">
         <img
-          src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1693236185/Sebastian___Julieta-logos_transparent-removebg-preview_glrehb.png"
+          src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1699831028/WhatsApp_Image_2023-11-12_at_20.15.12-removebg-preview_raihsu.png"
           alt=""
         />
       </header>

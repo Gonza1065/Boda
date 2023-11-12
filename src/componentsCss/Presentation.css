@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap");
 .body-presentation {
   position: relative;
-  background-image: url("https://res.cloudinary.com/dn2vrx9eu/image/upload/v1691688727/IMG_20221029_095242384_BURST001_sq2rod.jpg");
+  background-image: url("https://res.cloudinary.com/dn2vrx9eu/image/upload/v1699829558/foto-recortada_t044iu.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -43,8 +43,8 @@
   font-weight: 500;
   position: absolute;
   left: 22%;
-  top: 30%;
-  z-index: 1;
+  top: 18%;
+  z-index: 2;
 }
 @media (max-width: 500px) {
   .body-presentation {
@@ -57,10 +57,10 @@
     padding-bottom: 725px;
   }
   .presentation-text h1 {
-    margin-top: -50px;
     margin-bottom: 0;
     font-size: 50px;
     margin-right: 70px;
+    line-height: 0.7;
   }
 }
 @media only screen and ((min-width: 501px) and (max-width: 850px)) {
