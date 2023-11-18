@@ -22,19 +22,12 @@ export function Music() {
           <aside className="add-song">
             <div className="maps-location">
               <button className="see-location">
-                <Link to="https://spotify.link/7bW6ydFkNDb">Añadí tu tema</Link>
+                <Link to="https://open.spotify.com/playlist/6HhNF3CNARooIeezLRJuZz?si=I6xmFDlIRWeSmoP3717k9A&pi=u-10cxTfy6S468&pt=a966ebc136d6fa1ff07c1d4e4537ca79">
+                  Añadí tu tema
+                </Link>
               </button>
             </div>
             <div className="spotify">
-              {/* <iframe
-                src="https://open.spotify.com/playlist/6HhNF3CNARooIeezLRJuZz?si=I6xmFDlIRWeSmoP3717k9A&pi=u-10cxTfy6S468&pt=a966ebc136d6fa1ff07c1d4e4537ca79"
-                width="100%"
-                height="352"
-                frameBorder="0"
-                allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe> */}
               <iframe
                 src="https://open.spotify.com/embed/playlist/6HhNF3CNARooIeezLRJuZz?utm_source=generator"
                 width="100%"
