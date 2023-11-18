@@ -24,8 +24,8 @@ export function Church() {
             </div>
             <div className="church-text-god">
               <h3>
-                <span>¡</span>Dios bendecirá nuestra unión y nos gustaría que
-                seas parte de ese momento<span>!</span>
+                Dios bendecirá nuestra unión y nos gustaría que seas parte de
+                ese momento
               </h3>
             </div>
           </article>

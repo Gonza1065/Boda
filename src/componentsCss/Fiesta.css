@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 .icon-champagne-glasses svg {
-  height: 50px;
+  height: 30px;
 }
 .icon-champagne-glasses {
   text-align: center;
@@ -11,9 +11,9 @@
   border-radius: 20px;
 }
 .party {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
 }
 .party-text {
   text-align: center;
@@ -21,13 +21,14 @@
 }
 .party-text h3 {
   font-weight: 500;
+  font-size: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 0.8;
 }
 .celebrate-with-us {
   margin-top: 80px;
   font-family: "Dancing Script", cursive;
   font-size: 50px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 .celebrate-with-us span {
   color: grey;
@@ -47,7 +48,7 @@
 }
 .see-location-party {
   padding: 10px;
-  background-color: burlywood;
+  background-color: bisque;
   border-radius: 10px;
   border-style: groove;
   border-color: rgb(224, 145, 40);
@@ -93,27 +94,38 @@
     font-weight: 400;
   }
   .celebrate-with-us {
-    font-size: 33px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    margin-top: 40px;
+  }
+  .celebrate-with-us h1 {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    color: grey;
   }
   .party-text-ubication {
     text-align: center;
     font-family: "Raleway", cursive;
     font-size: 13px;
+    margin-top: 60px;
+  }
+  .party-text-ubication h1 {
+    font-size: 13px;
+    font-family: "Roboto Condensed", sans-serif;
   }
   .see-location-party a {
-    font-size: 15px;
+    font-size: 10px;
+    font-family: "Roboto Condensed", sans-serif;
   }
   .party-text-assist-confirmation h3 {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 500;
-    margin-top: 130px;
+    margin-top: 40px;
+    font-family: "Roboto Condensed", sans-serif;
   }
   .confirm-assist {
     padding: 5px;
   }
   .confirm-assist a {
-    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 10px;
   }
 }

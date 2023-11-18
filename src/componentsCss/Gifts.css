@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
 .body-gifts {
   background-color: #ece0ca;
   border-radius: 20px;
@@ -7,7 +9,8 @@
   text-align: center;
 }
 .icon-gift svg {
-  height: 50px;
+  height: 25px;
+  margin-top: 50px;
 }
 .gift {
   margin-top: 30px;
@@ -17,12 +20,14 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 50px;
-  font-family: "Raleway", cursive;
+  margin-top: 30px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .gift-text h3 {
   margin: 5px;
   font-weight: 500;
+  line-height: 1.5;
+  font-size: 30px;
 }
 .gift-cbu {
   text-align: center;
@@ -31,13 +36,31 @@
 }
 .gift-cbu h2 {
   font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .gift-cbu span {
   font-weight: 700;
-  text-decoration: underline;
 }
-.separador {
-  display: none;
+.btn-see-gifts {
+  border-bottom: 1px solid grey;
+}
+.see-gifts {
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: rgb(253, 197, 129);
+}
+.see-gifts a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.see-gifts:hover {
+  background-color: rgb(253, 173, 75);
+  transition: 0.5s;
 }
 @media (max-width: 500px) {
   .body-gifts {
@@ -48,6 +71,12 @@
     margin-left: 50px;
     margin-right: 50px;
   }
+  .datos-juli-seba {
+    text-align: start;
+  }
+  .datos-juli-seba h2 strong {
+    text-decoration: underline;
+  }
   .gift-text h3 {
     font-size: 13px;
     margin: 0;
@@ -56,11 +85,16 @@
     display: flex;
     flex-direction: column;
   }
-  .gift-cbu h2 {
-    font-size: 17px;
+  .gift-cbu {
+    text-align: start;
   }
-  .separador {
-    display: block;
+  .gift-cbu h2 {
+    font-size: 13px;
+  }
+  .see-gifts a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {

@@ -16,11 +16,13 @@ export function Fiesta() {
           </header>
           <article>
             <div className="party-text">
-              <h3>Todos somos inmortales hasta el primer beso</h3>
-              <h3>Y la segunda copa de vino...</h3>
+              <h3>Todos somos inmortales</h3>
+              <h3>Hasta el primer beso</h3>
+              <h3>Y la segunda copa de </h3>
+              <h3>vino...</h3>
               <div className="celebrate-with-us">
                 <h1>
-                  <span>¡</span>Festejalo con nosotros<span>!</span>
+                  <span>¡</span>FESTEJALO CON NOSOTROS<span>!</span>
                 </h1>
               </div>
             </div>

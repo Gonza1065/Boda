@@ -6,6 +6,7 @@ import { Fiesta } from "./components/Fiesta.jsx";
 import { Music } from "./components/Music.jsx";
 import { Gifts } from "./components/Gifts.jsx";
 import "./App.css";
+import { Gallery } from "./components/Gallery.jsx";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
             <Route path="/fiesta" element={<Fiesta />} />
             <Route path="/musica" element={<Music />} />
             <Route path="/regalo" element={<Gifts />} />
+            <Route path="/galeria" element={<Gallery />} />
           </Routes>
         </BrowserRouter>
       </main>

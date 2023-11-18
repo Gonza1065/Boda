@@ -26,9 +26,6 @@ export function NavBarPresentation() {
               <NavLink to="/invitacion">Invitación</NavLink>
             </li>
             <li>
-              <NavLink to="/nuestra-historia">Nuestra Historia</NavLink>
-            </li>
-            <li>
               <NavLink to="/iglesia">Iglesia</NavLink>
             </li>
             <li>
@@ -55,9 +52,6 @@ export function NavBarPresentation() {
             </li>
             <li>
               <NavLink to="/invitacion">Invitación</NavLink>
-            </li>
-            <li>
-              <NavLink to="/nuestra-historia">Nuestra Historia</NavLink>
             </li>
             <li>
               <NavLink to="/iglesia">Iglesia</NavLink>

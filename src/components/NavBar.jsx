@@ -18,7 +18,7 @@ export function NavBar() {
     <>
       <header className="logo-navbar">
         <img
-          src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1699831028/WhatsApp_Image_2023-11-12_at_20.15.12-removebg-preview_raihsu.png"
+          src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1700314685/WhatsApp_Image_2023-11-18_at_10.36.36-removebg-preview_kv1ayz.png"
           alt=""
         />
       </header>
@@ -30,9 +30,6 @@ export function NavBar() {
             </li>
             <li>
               <NavLink to="/invitacion">Invitación</NavLink>
-            </li>
-            <li>
-              <NavLink to="/nuestra-historia">Nuestra Historia</NavLink>
             </li>
             <li>
               <NavLink to="/iglesia">Iglesia</NavLink>
@@ -62,9 +59,7 @@ export function NavBar() {
             <li>
               <NavLink to="/invitacion">Invitación</NavLink>
             </li>
-            <li>
-              <NavLink to="/nuestra-historia">Nuestra Historia</NavLink>
-            </li>
+
             <li>
               <NavLink to="/iglesia">Iglesia</NavLink>
             </li>

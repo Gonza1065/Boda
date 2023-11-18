@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 .body-church {
   background-color: #ece0ca;
@@ -12,11 +13,12 @@
   text-align: center;
 }
 .icon-church svg {
-  height: 50px;
+  height: 30px;
+  margin-top: 50px;
 }
 .church-text {
   text-align: center;
-  font-family: "Raleway", sursive;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .church-text h3 {
   margin: 10px;
@@ -28,12 +30,9 @@
   text-decoration: underline;
 }
 .church-text-god {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
-  font-size: 33px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 .church-text-god h3 {
   font-family: "Dancing Script", cursive;
@@ -95,19 +94,23 @@
   }
   .church-text-god h3 {
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
+    color: grey;
+    font-weight: 700;
   }
   .church-text-location {
     padding-top: 30px;
   }
   .church-text-location h3 {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 500;
     line-height: 1.5;
+    font-family: "Roboto Condensed", sans-serif;
   }
   .see-location a {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
+    font-family: "Roboto Condensed", sans-serif;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 800px) {
