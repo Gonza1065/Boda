@@ -3,7 +3,7 @@
   text-align: center;
 }
 .logo-navbar img {
-  height: 70px;
+  height: 120px;
 }
 .navegation {
   display: flex;
@@ -29,7 +29,7 @@
 .separation-nav-bar {
   padding: 10px;
 }
-@media (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   .navegation {
     display: none;
   }
@@ -39,16 +39,15 @@
     text-align: center;
   }
   .logo-navbar img {
-    height: 160px;
+    height: 120px;
     margin-top: 3px;
-    margin-left: -47px;
+    margin-left: -35px;
   }
 }
 @media only screen and ((min-width: 501px) and (max-width: 850px)) {
   .navegation {
     display: none;
   }
-
   .menu-mobile-open {
     display: block;
     position: fixed;

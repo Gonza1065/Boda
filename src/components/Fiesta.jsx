@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChampagneGlasses } from "@fortawesome/free-solid-svg-icons";
-import "../componentsCss/Fiesta.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import "../componentsCss/Fiesta.css";
 import { NavBar } from "./NavBar.jsx";
 export function Fiesta() {
   return (
@@ -53,7 +53,9 @@ export function Fiesta() {
           <aside>
             <div className="assist">
               <button className="confirm-assist">
-                <Link to="#">Confirmar Asistencia</Link>
+                <Link to="https://docs.google.com/forms/d/e/1FAIpQLSejFhChXRMlxDiGDwh9PyRTlBYPlGITu7ESzznZ8_9wZ4Q2dQ/viewform?usp=sf_link">
+                  Confirmar Asistencia
+                </Link>
               </button>
             </div>
           </aside>

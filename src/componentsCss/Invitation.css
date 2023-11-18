@@ -14,7 +14,7 @@
 .invitation {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 30px;
+  margin-top: -30px;
 }
 .invitation-text {
   display: flex;
@@ -36,10 +36,9 @@ h1 {
 .nos-casamos {
   font-family: "Dancing Script", cursive;
   font-size: 100px;
+  color: grey;
 }
-.nos-casamos span {
-  color: rgb(128, 128, 128);
-}
+
 .date {
   margin-top: 115px;
   text-align: center;
@@ -55,14 +54,15 @@ h1 {
   padding-bottom: 30px;
   font-family: "Roboto Condensed", sans-serif;
 }
-@media (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   .count {
     margin-top: -30px;
   }
   .invitation {
     margin-left: 20px;
     margin-right: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 260px;
+    margin-top: 30px;
   }
   .invitation-text {
     margin-top: 30px;
@@ -74,12 +74,12 @@ h1 {
     margin-bottom: 60px;
   }
   .nos-casamos {
-    font-size: 42px;
+    font-size: 30px;
     color: rgb(95, 95, 95);
   }
   .dressing {
     font-size: 10px;
-    margin-top: 30px
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 850px) {

@@ -4,12 +4,14 @@
 .body-gifts {
   background-color: #ece0ca;
   border-radius: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .icon-gift {
   text-align: center;
 }
 .icon-gift svg {
-  height: 25px;
+  height: 30px;
   margin-top: 50px;
 }
 .gift {
@@ -65,6 +67,8 @@
 @media (max-width: 500px) {
   .body-gifts {
     padding-bottom: 286px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .gifts {
     margin-top: 30px;

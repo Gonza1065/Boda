@@ -13,7 +13,7 @@
 .party {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .party-text {
   text-align: center;
@@ -29,6 +29,10 @@
   margin-top: 80px;
   font-family: "Dancing Script", cursive;
   font-size: 50px;
+  color: grey;
+}
+.celebrate-with-us h1 {
+  font-size: 40px;
 }
 .celebrate-with-us span {
   color: grey;
@@ -83,9 +87,14 @@
   background-color: rgb(253, 173, 75);
   transition: 0.5s;
 }
-@media (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   .body-party {
-    padding-bottom: 35px;
+    padding-bottom: 250px;
+  }
+  .party {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
   }
   .party-text {
     font-size: 13px;

@@ -14,7 +14,7 @@
 }
 .icon-church svg {
   height: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .church-text {
   text-align: center;
@@ -37,8 +37,7 @@
 .church-text-god h3 {
   font-family: "Dancing Script", cursive;
   font-weight: 800;
-}
-.church-text-god h3 span {
+  font-size: 40px;
   color: grey;
 }
 .church-text-location {
@@ -72,9 +71,12 @@
   background-color: rgb(253, 173, 75);
   transition: 0.5s;
 }
-@media (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   .body-church {
-    padding-bottom: 110px;
+    padding-bottom: 315px;
+  }
+  .icon-church svg {
+    margin-top: 50px;
   }
   .church {
     margin-left: 50px;
@@ -113,7 +115,7 @@
     font-family: "Roboto Condensed", sans-serif;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 800px) {
+@media only screen and (min-width: 501px) and (max-width: 800px) {
   .icon-church svg {
     margin-top: 20px;
   }

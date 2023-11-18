@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChurch } from "@fortawesome/free-solid-svg-icons";
-import "../componentsCss/Church.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import "../componentsCss/Church.css";
 import { NavBar } from "./NavBar.jsx";
 export function Church() {
   return (
@@ -31,7 +31,7 @@ export function Church() {
           </article>
           <div className="church-text-location">
             <h3>
-              Los esperamos en la
+              Los esperamos a las <strong>12 hs</strong> en la
               <strong>
                 <span> Parroquia Sagrado Corazón de Jesús.</span>
               </strong>

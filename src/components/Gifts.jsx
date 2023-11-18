@@ -1,8 +1,8 @@
 import { faGift } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import "../componentsCss/Gifts.css";
 import { NavBar } from "./NavBar";
-import { Link } from "react-router-dom";
 export function Gifts() {
   return (
     <>
