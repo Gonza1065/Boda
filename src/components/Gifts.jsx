@@ -59,7 +59,7 @@ export function Gifts() {
                 SEBA.SIMBA
               </h2>
               <h2>
-                <span>Dirección Seba: </span>
+                <span>Dirección: </span>
                 Le Parc 257, Palmira, San Martin, Mendoza.
               </h2>
             </div>
