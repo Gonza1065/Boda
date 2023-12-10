@@ -22,7 +22,7 @@ export function Music() {
           <aside className="add-song">
             <div className="maps-location">
               <button className="see-location">
-                <Link to="https://open.spotify.com/playlist/6HhNF3CNARooIeezLRJuZz?si=oicFoVPpQw6zY5TjZ2q4fw&pt=db64b011062d07d16c937fc3d8a949e2">
+                <Link to="https://open.spotify.com/playlist/6HhNF3CNARooIeezLRJuZz?si=hCBevbypTniQcrr_uqvzjg&pi=u-EuD80DW9RsST&pt=4b478e741c14910cb13e731edfe6dac8">
                   Añadí tu tema
                 </Link>
               </button>
